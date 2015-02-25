@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent" >
+    
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" > 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Kalor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Kalor merupakan salah satu bentuk energi. Berarti kalor merupakan besaran fisika yang dapat diukur. Kegiatan pengukuran-pengukuran kalor (kalorimetri) dalam fisika, berkaitan dengan penentuan kalor jenis suatu zat. 
+
+Alat yang digunakan untuk mengukur kalor disebut kalorimeter. Istilah kalor, pertama kali diperkenalkan oleh seorang ahli kimia dari Perancis bernama A.L.Lavoisier (1743-1794). Kalor berasal dari kata caloric. 
+Para ahli kimia dan fisika, semula menganggap bahwa kalor merupakan jenis zat alir yang tidak terlihat oleh manusia." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="24dp"
+        android:text="1 joule= 0,24 kalori atau 1 kal= 4,2 joule" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="17dp"
+        android:text="Dalam sistem satuan imperial (Inggris), satuan kalor dinyatakan dalam British Thermal Unit (BTU). 1 BTU = 1054 joule; 1 BTU = 252 kalori.
+“Kalori” yang digunakan oleh ahli gizi disebut “kalori besar” yang sebenarnya adalah satu kilo kalori (1 k kal); 1 k kal= 1000 kalori." />
+    
+    </LinearLayout>   
+    
+    </ScrollView>
+    
+</RelativeLayout>

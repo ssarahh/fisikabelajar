@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practical Physics</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_beranda">Beranda</string>
+    <string name="title_activity_materi_fisika">Materi Fisika</string>
+    <string name="title_activity_video">Video Praktikum</string>
+    <string name="title_activity_web_view">Video Praktikum</string>
+    <string name="title_activity_pertanyaan">Pertanyaan</string>
+    <string name="title_activity_view">Hasil</string>
+    <string name="title_activity_web_view2">Video Praktikum</string>
+    <string name="title_activity_web_view3">Video Praktikum</string>
+    <string name="title_activity_web_view4">Video Praktikum</string>
+    <string name="title_activity_web_view5">Video Praktikum</string>
+    <string name="title_activity_pertanyaan2">Pertanyaan</string>
+    <string name="title_activity_pertanyaan3">Pertanyaan</string>
+    <string name="title_activity_hasil">Hasil Skor</string>
+    <string name="title_activity_pertanyaan4">Pertanyaan</string>
+    <string name="title_activity_pertanyaan5">Pertanyaan</string>
+    <string name="title_activity_fisika">Materi Fisika</string>
+    <string name="title_activity_statis">Materi Fisika</string>
+    <string name="title_activity_arus">Materi Fisika</string>
+    <string name="title_activity_kalor">Materi Fisika</string>
+    <string name="title_activity_magnet">Materi Fisika</string>
+    <string name="title_activity_kuis1">Kuis</string>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sarah.p_physics"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+E
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Beranda"
+            android:label="@string/title_activity_beranda" >
+        </activity>
+        <activity
+            android:name=".MateriFisika"
+            android:label="@string/title_activity_materi_fisika" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".WebView"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name=".Pertanyaan"
+            android:label="@string/title_activity_pertanyaan" >
+        </activity>
+        <activity
+            android:name=".View"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name=".WebView2"
+            android:label="@string/title_activity_web_view2" >
+        </activity>
+        <activity
+            android:name=".WebView3"
+            android:label="@string/title_activity_web_view3" >
+        </activity>
+        <activity
+            android:name=".WebView4"
+            android:label="@string/title_activity_web_view4" >
+        </activity>
+        <activity
+            android:name=".WebView5"
+            android:label="@string/title_activity_web_view5" >
+        </activity>
+        <activity
+            android:name=".Pertanyaan2"
+            android:label="@string/title_activity_pertanyaan2" >
+        </activity>
+        <activity
+            android:name=".Pertanyaan3"
+            android:label="@string/title_activity_pertanyaan3" >
+        </activity>
+        <activity
+            android:name=".Hasil"
+            android:label="@string/title_activity_hasil" >
+        </activity>
+        <activity
+            android:name=".Pertanyaan4"
+            android:label="@string/title_activity_pertanyaan4" >
+        </activity>
+        <activity
+            android:name=".Pertanyaan5"
+            android:label="@string/title_activity_pertanyaan5" >
+        </activity>
+        <activity
+            android:name=".Fisika"
+            android:label="@string/title_activity_fisika" >
+        </activity>
+        <activity
+            android:name=".Statis"
+            android:label="@string/title_activity_statis" >
+        </activity>
+        <activity
+            android:name=".Arus"
+            android:label="@string/title_activity_arus" >
+        </activity>
+        <activity
+            android:name=".Kalor"
+            android:label="@string/title_activity_kalor" >
+        </activity>
+        <activity
+            android:name=".Magnet"
+            android:label="@string/title_activity_magnet" >
+        </activity>
+        <activity
+            android:name=".Kuis1"
+            android:label="@string/title_activity_kuis1" >
+        </activity>
+    </application>
+
+</manifest>
